@@ -6,7 +6,7 @@
 
 $link = mysqli_connect("localhost",
     "root",
-    "allah@03",
+    "lict@2",
     "project");
 
 $query = "select * from registration;";
@@ -22,7 +22,7 @@ $result = mysqli_query($link, $query);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Home | Corlate</title>
+    <title>Admin List</title>
     <!-- core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/bootstrap1.min.css">
@@ -61,7 +61,7 @@ $result = mysqli_query($link, $query);
                     <a class="dropdown-toggle" role="button" data-toggle="dropdown" href="#">
                         <i class="glyphicon glyphicon-user"></i> Admin <span class="caret"></span></a>
                     <ul id="g-account-menu" class="dropdown-menu" role="menu">
-                        <li><a href="view.php">My Profile</a></li>
+                        <li><a href="view1.php">My Profile</a></li>
                         <li><a href="dashboard.php">Dashboard</a></li>
                         <li><a href="logout.php"><i class="glyphicon glyphicon-lock"></i> Logout</a></li>
                     </ul>
@@ -130,24 +130,11 @@ $result = mysqli_query($link, $query);
 
 </section>
 
+<?php
 
-<footer id="footer" class="midnight-blue">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-6">
-                &copy; 2015 <a target="_blank" href="http://shapebootstrap.net/" title="Free Twitter Bootstrap WordPress Themes and HTML templates">ArifaAshrafi</a>. All Rights Reserved.
-            </div>
-            <div class="col-sm-6">
-                <ul class="pull-right">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Faq</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</footer><!--/#footer-->
+include_once('footer.php');
+
+?>
 
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>

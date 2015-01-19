@@ -6,7 +6,7 @@ $id = $_GET['id'];
 
 $link = mysqli_connect("localhost",
     "root",
-    "allah@03",
+    "lict@2",
     "project");
 
 $query = "DELETE FROM `project`.`registration` WHERE `registration`.`id` = $id";

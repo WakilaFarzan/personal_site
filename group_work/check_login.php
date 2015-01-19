@@ -32,7 +32,7 @@ $password = $_POST['password'];
 
 //exit;
 
-$link = mysqli_connect("localhost", "root", "allah@03", "project");
+$link = mysqli_connect("localhost", "root", "lict@2", "project");
 
 $query = "SELECT * FROM registration WHERE `email` = '$email' AND `password` = '$password'";
 $result = mysqli_query($link, $query);

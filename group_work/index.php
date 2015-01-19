@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Home | Corlate</title>
+    <title>Home|MyWorld</title>
     <!-- core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../css/bootstrap1.min.css">
@@ -99,24 +99,11 @@ include_once('header.php');
         <i class="fa fa-chevron-right"></i>
     </a>
 </section><!--/#main-slider-->
-<footer id="footer" class="midnight-blue">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-6">
-                &copy; 2015 <a target="_blank" href="http://shapebootstrap.net/" title="Free Twitter Bootstrap WordPress Themes and HTML templates">Wakila</a>. All Rights Reserved.
-            </div>
-            <div class="col-sm-6">
-                <ul class="pull-right">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Faq</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</footer><!--/#footer-->
+<?php
 
+include_once('footer.php');
+
+?>
 
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.min.js"></script>
