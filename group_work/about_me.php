@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>About Me | Corlate</title>
+    <title>About Me</title>
     <!-- core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../css/bootstrap1.min.css">
@@ -39,6 +39,7 @@
 <div class="center wow fadeInDown">
     <h2>About Me</h2>
     <p class="lead"> <br></p>
+    <hr>
 </div>
 <div class="row">
     <div class="col-md-8 col-md-offset-2">
@@ -79,6 +80,7 @@
         </div>
     </div>
 </div>
+    <hr>
 
 <!-- Our Skill -->
 <!--/.our-skill-->

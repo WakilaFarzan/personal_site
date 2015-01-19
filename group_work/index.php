@@ -39,7 +39,7 @@ include_once('header.php');
             <li data-target="#main-slider" data-slide-to="2"></li>
         </ol>
         <div class="carousel-inner">
-            <div class="item active" style="background-image: url(images/slider/bg1.jpg)">
+            <div class="item active" style="background-image: url(images/slider/abstract-q-c-1400-730-8.jpg)">
                 <div class="container">
                     <div class="row slide-margin">
                         <div class="col-sm-6">
@@ -56,7 +56,7 @@ include_once('header.php');
                     </div>
                 </div>
             </div><!--/.item-->
-            <div class="item" style="background-image: url(images/slider/bg2.jpg)">
+            <div class="item" style="background-image: url(images/slider/nature-q-c-1400-730-3.jpg)">
                 <div class="container">
                     <div class="row slide-margin">
                         <div class="col-sm-6">
@@ -73,7 +73,7 @@ include_once('header.php');
                     </div>
                 </div>
             </div><!--/.item-->
-            <div class="item" style="background-image: url(images/slider/bg3.jpg)">
+            <div class="item" style="background-image: url(images/slider/nature-q-c-1400-730-10.jpg)">
                 <div class="container">
                     <div class="row slide-margin">
                         <div class="col-sm-6">
@@ -113,6 +113,5 @@ include_once('footer.php');
 <script src="js/wow.min.js"></script>
 </body>
 </html>
-
 
 
