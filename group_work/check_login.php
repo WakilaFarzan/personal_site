@@ -62,7 +62,7 @@ if($row)
     $_SESSION['created']=$row['created'];
     $_SESSION['modified']=$row['modified'];
 
-    header('location: Admin/index.php');
+    header('location: dashboard.php');
 
 }
 

@@ -58,8 +58,8 @@ $result = mysqli_query($link, $query);
                     <a class="dropdown-toggle" role="button" data-toggle="dropdown" href="#">
                         <i class="glyphicon glyphicon-user"></i> Admin <span class="caret"></span></a>
                     <ul id="g-account-menu" class="dropdown-menu" role="menu">
-                        <li><a href="view1.php">My Profile</a></li>
                         <li><a href="dashboard.php">Dashboard</a></li>
+                        <li><a href="view1.php">Profile info</a></li>
                         <li><a href="logout.php"><i class="glyphicon glyphicon-lock"></i> Logout</a></li>
                     </ul>
                 </li>
@@ -109,16 +109,31 @@ $result = mysqli_query($link, $query);
                         <td><?php echo $row['created']?></td>
                         <td><?php echo $row['modified']?></td>
 
-                        <td> <a href="view.php?id=<?php echo $row['id']?>">View</a><br>
-                            <a href="edit.php?id=<?php echo $row['id']?>">Edit</a><br>
-                            <a href="delete.php?id=<?php echo $row['id']?>">Delete</a></td>
+                        <td> <a class="btn btn-default" role="button" href="view.php?id=<?php echo $row['id']?>">View</a><br>
+                            <a class="btn btn-default" role="button" href="edit.php?id=<?php echo $row['id']?>">Edit</a><br>
+                            <a class="btn btn-default" href="" role="button" data-toggle="modal" data-target="#myModal">Delete</a>
+                        </td>
                     </tr>
+
 
                 <?php
                 }
                 ?>
 
             </table>
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                           Do you want to delete this data?
+                        </div>
+                        <div class="modal-footer">
+                            <a class="btn btn-default" href="delete.php?id=<?php echo $row['id']?>" role="button">Yes</a>
+                            <a class="btn btn-default" href="list.php" role="button">No</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         </div>
     </div>
