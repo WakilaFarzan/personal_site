@@ -1,7 +1,7 @@
 <?php
 $link = mysqli_connect("localhost",
     "root",
-    "lict@2",
+    "allah@03",
     "project");
 
 $hobby = implode(',', $_POST['hobby']);

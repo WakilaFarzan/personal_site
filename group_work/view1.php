@@ -7,7 +7,7 @@ $id = $_SESSION['id'];
 
 $link = mysqli_connect("localhost",
     "root",
-    "lict@2",
+    "allah@03",
     "project");
 
 $query = "select * from registration WHERE id = $id";

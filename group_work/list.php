@@ -6,7 +6,7 @@
 
 $link = mysqli_connect("localhost",
     "root",
-    "lict@2",
+    "allah@03",
     "project");
 
 $query = "select * from registration;";
@@ -113,7 +113,7 @@ $result = mysqli_query($link, $query);
                         <td><?php echo $row['modified']?></td>
 
                         <td> <a href="view.php?id=<?php echo $row['id']?>">View</a><br>
-                            <a href="#">Edit</a><br>
+                            <a href="edit.php?id=<?php echo $row['id']?>">Edit</a><br>
                             <a href="delete.php?id=<?php echo $row['id']?>">Delete</a></td>
                     </tr>
 
