@@ -2,10 +2,7 @@
 
 $id = $_POST['id'];
 
-$link = mysqli_connect("localhost",
-    "root",
-    "allah@03",
-    "project");
+include_once('connection.php');
 
 $hobby = implode(',', $_POST['hobby']);
 $city = implode(',', $_POST['city']);

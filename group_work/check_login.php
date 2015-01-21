@@ -32,7 +32,7 @@ $password = $_POST['password'];
 
 //exit;
 
-$link = mysqli_connect("localhost", "root", "allah@03", "project");
+include_once('connection.php');
 
 $query = "SELECT * FROM registration WHERE `email` = '$email' AND `password` = '$password'";
 $result = mysqli_query($link, $query);
@@ -62,7 +62,7 @@ if($row)
     $_SESSION['created']=$row['created'];
     $_SESSION['modified']=$row['modified'];
 
-    header('location: dashboard.php');
+    header('location: Admin/index.php');
 
 }
 

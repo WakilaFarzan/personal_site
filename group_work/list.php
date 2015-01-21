@@ -4,10 +4,7 @@
 <?php
 
 
-$link = mysqli_connect("localhost",
-    "root",
-    "allah@03",
-    "project");
+include_once('connection.php');
 
 $query = "select * from registration;";
 
