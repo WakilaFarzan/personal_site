@@ -9,7 +9,7 @@
     <title>Home|MyWorld</title>
     <!-- core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="../css/bootstrap1.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap1.min.css">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/animate.min.css" rel="stylesheet">
     <link href="css/prettyPhoto.css" rel="stylesheet">

@@ -62,7 +62,7 @@ $row = mysqli_fetch_assoc($result);
                         <i class="glyphicon glyphicon-user"></i> Admin <span class="caret"></span></a>
                     <ul id="g-account-menu" class="dropdown-menu" role="menu">
                         <li><a href="view1.php">My Profile</a></li>
-                        <li><a href="index.php">Dashboard</a></li>
+                        <li><a href="dashboard.php">Dashboard</a></li>
                         <li><a href="list.php">Admin Info List</a></li>
                         <li><a href="logout.php"><i class="glyphicon glyphicon-lock"></i> Logout</a></li>
                     </ul>

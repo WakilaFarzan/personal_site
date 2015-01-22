@@ -3,7 +3,7 @@
 
 $link = mysqli_connect("localhost",
     "root",
-    "allah@03",
+    "lict@2",
     "project");
 
 ?>

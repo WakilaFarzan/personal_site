@@ -54,6 +54,7 @@
                                 <li><a href="form.php">SignUp</a></li>
                                 <!--<li><a href="pricing.html">Pricing</a></li>-->
                                 <li><a href="sign_in.php">SignIn</a></li>
+                                <li><a href="blog.php">Blog</a></li>
                             </ul>
                         </li>
                         <li><a href="gallery.php">Gallery</a></li>
