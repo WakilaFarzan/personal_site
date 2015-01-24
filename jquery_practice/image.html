@@ -24,23 +24,27 @@
 <body>
 
 <div class="container">
-    <img class="thumbnail" src="1.jpg"  onclick="changeImage('1.jpg')">
-    <img class="thumbnail" src="2.jpg"  onclick="changeImage('2.jpg')">
-    <img  class="thumbnail" src="3.jpg"  onclick="changeImage('3.jpg')">
-    <img class="thumbnail"  src="4.jpg"  onclick="changeImage('4.jpg')">
-    <img class="thumbnail"  src="5.jpg"  onclick="changeImage('5.jpg')">
+    <img class="thumbnail" src="1.jpg">
+    <img class="thumbnail" src="2.jpg" >
+    <img  class="thumbnail" src="3.jpg" >
+    <img class="thumbnail"  src="4.jpg" >
+    <img class="thumbnail"  src="5.jpg" >
 
     <img id="img2" class="thumbnail" src="1.jpg">
 </div>
 
+
+
 <script>
 
-    function changeImage(imgname)
-    {
-        image = document.getElementById('img2');
-        image.src = imgname;
-    }
-
+    $('document').ready(function(){
+        //var i=1;
+        $('img').click(function(){
+            var url =$(this).attr('src');
+            //alert(url);
+            $('#img2').attr('src',url);
+        })
+    })
 
 </script>
 
