@@ -1,19 +1,19 @@
 
 <?php
 
-    class User{
-
-       public $name=null;
-
-        function  __construct($name){
-            $this->name=$name;
-        }
-    }
-
-$arif=new User('Arif');
-$arifa=new User('Arifa');
-
-var_dump($arif);
+//    class User{
+//
+//       public $name=null;
+//
+//        function  __construct($name){
+//            $this->name=$name;
+//        }
+//    }
+//
+//$arif=new User('Arif');
+//$arifa=new User('Arifa');
+//
+//var_dump($arif);
 
 
 //    $arif=new User();
@@ -25,3 +25,6 @@ var_dump($arif);
 //    var_dump($arifa);
 
 
+class Animal{
+
+}
